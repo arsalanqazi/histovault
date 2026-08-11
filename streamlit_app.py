@@ -20,7 +20,7 @@ with open("logo.png", "rb") as _f:
 # ── Page config ──────────────────────────────────────────────────────────────
 st.set_page_config(
     page_title="HistoVault",
-    page_icon=Image.open("favicon.ico"),
+    page_icon=Image.open("logo.png"),
     layout="centered",
     initial_sidebar_state="collapsed",
 )
