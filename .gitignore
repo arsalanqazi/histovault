@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+histovault-env/
+
+# Models (too large for GitHub)
+models_pytorch/
+*.pt
+*.pth
+*.h5
+
+# Streamlit
+.streamlit/
