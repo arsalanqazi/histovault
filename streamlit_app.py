@@ -514,7 +514,7 @@ for result in st.session_state.results:
             st.image(result["image"], use_container_width=True)
         with img_col2:
             if result.get("gradcam"):
-                st.markdown('<div class="hv-img-label">AI Attention (Grad-CAM)</div>', unsafe_allow_html=True)
+                st.markdown('<div class="hv-img-label">AI Attention</div>', unsafe_allow_html=True)
                 st.image(result["gradcam"], use_container_width=True)
 
         # Probability bars
